@@ -1,0 +1,225 @@
+@media only screen and (max-width:395px) {
+    /* header */
+    .header-del {
+        display: none;
+    }
+    .parallax-2 {
+        display: none;
+    }
+    /* header */
+    /* content */
+    a {
+        font-size: 0.7em;
+    }
+    a i {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 1.3rem !important;
+    }
+    button,
+    .form-control,
+    button {
+        font-size: 0.8em !important;
+    }
+    h3 {
+        font-size: 0.95em;
+    }
+    h4 {
+        font-size: 0.8em;
+    }
+    h5 {
+        font-size: 1.2em !important;
+    }
+    h6 {
+        font-size: 13px !important;
+    }
+    p {
+        font-size: 0.9em;
+    }
+    span {
+        font-size: 12px;
+    }
+    .line-hight {
+        line-height: 24px;
+    }
+    /* content */
+    /* footer */
+    footer a {
+        font-size: 0.8em;
+    }
+    /* footer */
+}
+
+@media only screen and (min-width:396px) and (max-width:575px) {
+    /* header */
+    .header-del {
+        display: none;
+    }
+    .parallax-2 {
+        display: none;
+    }
+    /* header */
+    /* content */
+    a {
+        font-size: 0.75em;
+    }
+    a i {
+        font-size: 15px;
+        color: #448EFF;
+    }
+    h4 {
+        font-size: 0.75em;
+    }
+    button,
+    .form-control,
+    button,
+    h3,
+    h5,
+    h6 {
+        font-size: 1em !important;
+    }
+    p {
+        font-size: 0.85em;
+        line-height: 25px !important;
+    }
+    span {
+        font-size: 1em;
+    }
+    .line-hight {
+        line-height: 28px;
+    }
+    /* content */
+    /* footer */
+    footer a {
+        font-size: 0.7em;
+    }
+    /* footer */
+}
+
+@media only screen and (min-width:576px) and (max-width:775px) {
+    /* header */
+    .header-del {
+        display: none;
+    }
+    .parallax-2 {
+        display: none;
+    }
+    /* header */
+    /* content */
+    a {
+        font-size: 0.75em;
+    }
+    a i {
+        font-size: 15px;
+    }
+    button,
+    .form-control,
+    button,
+    h4,
+    h5,
+    h6 {
+        font-size: 1em !important;
+        line-height: 20px !important;
+    }
+    p {
+        font-size: 0.85em;
+        line-height: 27px !important;
+    }
+    span {
+        font-size: 0.85em;
+    }
+    .line-hight {
+        line-height: 30px;
+    }
+    /* content */
+    /* footer */
+    footer a {
+        font-size: 0.8em;
+    }
+    /* footer */
+}
+
+@media only screen and (min-width:776px) and (max-width:995px) {
+    /* header */
+    .header-del {
+        display: none;
+    }
+    .parallax-2 {
+        display: none;
+    }
+    /* header */
+    /* content */
+    a {
+        font-size: 0.8em;
+    }
+    a i {
+        font-size: 15px;
+    }
+    h4 {
+        font-size: 0.90em;
+    }
+    h5,
+    .form-control,
+    button,
+    h6 {
+        font-size: 0.85em !important;
+        line-height: 22px !important;
+    }
+    p {
+        font-size: 0.75em;
+        line-height: 27px !important;
+    }
+    span {
+        font-size: 0.85em;
+    }
+    .line-hight {
+        line-height: 30px;
+    }
+    /* content */
+    /* footer */
+    footer a {
+        font-size: 0.8em;
+    }
+    /* footer */
+}
+
+@media only screen and (min-width:996px) {
+    /* content */
+    #header-ris {
+        display: none;
+    }
+    a {
+        font-size: 0.85em;
+    }
+    a i {
+        font-size: 16px;
+        color: #448EFF;
+    }
+    h4 {
+        font-size: 1.25em;
+    }
+    h5,
+    button,
+    .form-control,
+    h6 {
+        font-size: 1em !important;
+        line-height: 25px !important;
+    }
+    p {
+        font-size: 1em;
+        line-height: 27px !important;
+    }
+    span {
+        font-size: 0.95em;
+    }
+    .line-hight {
+        line-height: 38px;
+    }
+    /* content */
+    /* footer */
+    footer a {
+        font-size: 0.9em;
+    }
+    /* footer */
+}

@@ -1,0 +1,831 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap-rtl.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="assets/swiper.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <title>آزمایشگاه</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row blue-bg">
+
+            <div class="container">
+
+                <div class="header-del ">
+                    <nav class="navbar navbar-expand-lg d-flex  align-items-center">
+                        <a class="navbar-brand" href="index.html"><img src="assets/image/logo.png" alt=""></a>
+
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+
+                                <li class="nav-item ">
+                                    <a class="nav-link text-white" href="labs.html">آزمایشگاه ها</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="Services.html">خدمات</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="equipments.html">تجهیزات</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    سایر 
+                      </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="news.html"><img src="assets/image/Polygon 3.png" alt="" class="icon-footer-rotate px-1">اخبار و اطلاعیه ها</a>
+                                        <a class="dropdown-item" href="#"><img src="assets/image/Polygon 3.png" alt="" class="icon-footer-rotate px-1">سوالات متداول </a>
+                                        <a class="dropdown-item" href="contectus.html"><img src="assets/image/Polygon 3.png" alt="" class="icon-footer-rotate px-1">تماس با ما </a>
+                                        <a class="dropdown-item" href="aboutus.html"><img src="assets/image/Polygon 3.png" alt="" class="icon-footer-rotate px-1"> درباره ما </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <ul class="list-inline">
+
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-search text-white search-header"></i></a></li>
+                            <li class="list-inline-item"><a href="" class="btn btn-danger text-white" data-toggle="modal" data-target="#login-modal">ورود <span class="px-1">|</span> ثبت نام</a></li>
+
+                        </ul>
+
+                    </nav>
+
+                </div>
+                <div id="header-ris" class="">
+                    <input type="checkbox" id="menu-ris-check" class="checkbox" hidden checked>
+
+                    <div class="row">
+
+                        <div class="col-6">
+
+                            <label for="menu-ris-check">
+                        <a class="btn  m-2 btn-ris-menu">
+                        <i class="fas fa-bars text-white"></i>
+                         </a>
+                         </label>
+                        </div>
+                        <div class="col-6 text-left">
+                            <img src="assets/image/NoPath - Copy (2).png" alt="" class=" text-left">
+
+                        </div>
+                    </div>
+                    <div class="header-ris-menu">
+                        <div class="container">
+                            <div class="row justify-content-center ">
+                                <div class="input-group w-75 my-4">
+                                    <input type="text" class=" form-control" placeholder="جستجو...">
+                                    <div class="input-group-append">
+                                        <button type="submit" name="submit" class="btn btn-success"><i class="fa fa-search"></i>
+                            </button>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <ul class=" list-unstyled">
+
+                            <li class="">
+                                <a class="nav-link text-white" href="labs.html">آزمایشگاه ها</a>
+                            </li>
+                            <li class="">
+                                <a class="nav-link text-white" href="services.html">خدمات</a>
+                            </li>
+                            <li class="">
+                                <a class="nav-link text-white" href="equipment.html">تجهیزات</a>
+                            </li>
+                            <li class="">
+                                <a class="nav-link text-white" href="news.html">اخبار و اطلاعیه ها</a>
+                            </li>
+                            <li class="">
+                                <a class="nav-link text-white" href="questions.html">سوالات متداول </a>
+                            </li>
+                            <li class="">
+                                <a class="nav-link text-white" href="aboutus.html">درباره ما</a>
+                            </li>
+                            <li class="">
+                                <a class="nav-link text-white" href="contactus.html">تماس با ما</a>
+                            </li>
+                            <li class="list-inline-item"><a href="" class="btn btn-danger  text-white" data-toggle="modal" data-target="#login-modal">ورود <span class="px-1">|</span> ثبت نام</a></li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row search-header-row justify-content-center">
+            <div class="input-group  ">
+                <input type="text" class=" form-control" placeholder="جستجو...">
+                <div class="input-group-append">
+                    <button type="submit" name="submit" class="btn btn-success"><i class="fas fa-arrow-right"></i>
+        </button>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-light">
+                        <img src="assets/image/logo.png" alt=""> <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">ورود</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">ثبت نام</a>
+                            </li>
+                            <li class="nav-item float-left">
+                                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">فراموشی رمز عبور</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                <form action="shayanzad" name="singinForm" method="POST" onsubmit="return sum(event)">
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">نام کاربری</label>
+
+                                        <input type="email" name="username" class="form-control text-right small bg-light " id="userName" aria-describedby="emailHelp" placeholder="نام کاربری | ایمیل">
+                                        <small class=" text-danger " id="err-null-user">این فیلد باید پر شود</small>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">رمز ورود</label>
+                                        <input type="password" name="password" class="form-control bg-light" id="exampleInputPass">
+                                        <small class=" text-danger " id="err-null-pass">این فیلد باید پر شود</small>
+
+                                    </div>
+
+                                    <button type="submit" class="btn btn-success btn-block">ورود به سایت</button>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">نام</label>
+
+                                        <input type="email" class="form-control text-right small" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="نام ">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">نام کاربری</label>
+
+                                        <input type="email" class="form-control text-right small" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="نام کاربری | ایمیل">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1"><span class=" text-danger">*</span> رمز ورود</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1"><span class=" text-danger">*</span> تکرار رمز ورود </label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+
+                                    <button type="submit" class="btn btn-success btn-block"> عضویت در سایت </button>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                <form>
+                                    <p>کاربر عزیز ایمیل خود را در کادر زیر وارد کرده و دکمه فراموشی رمز عبور را بزنید و رمز حساب خود را از طریق ایمیلتان تغییر دهید</p>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1"> ایمیل</label>
+                                        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="shayanazadbakht1781@gmail.com">
+                                    </div>
+
+                                    <button type="submit" class="btn btn-success btn-block">بازیابی رمز عبور </button>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <header class="header">
+
+            <div class="row d-flex align-items-center flex-column text-header">
+                <h2 class=" text-primary"> مجموعه آزمایشگاهی</h2>
+                <p class=" text-primary h4">دانشگاه بیرجند</p>
+            </div>
+            <div class="row justify-content-center row-header-form ">
+                <div class="col-8 form-line text-center ">
+                    <form action="http://google.com/search" class=" text-center w-100">
+                        <div class="input-group w-100">
+                            <input type="text" class=" form-control " placeholder="جستجو...">
+
+                            <button type="submit" class="btn btn-primary  mx-2">جستجو</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </header>
+        <!-- content -->
+        <section class="content">
+            <div class="row  d-flex align-items-center flex-column pt-6">
+                <h3 class=" text-primary"> بهترین تجهیزات </h3>
+                <p class="color-pink">بیش از 26 آزمایشگاه با بهترین خدمات و تجهیزات </p>
+            </div>
+            <div class="container pb-6">
+                <div class="row  row-cols-2 row-cols-lg-3 py-4 products">
+                    <div class="col py-3">
+                        <a href="equipments.html">
+
+                            <div class="card">
+                                <div class=" overflow-hidden">
+                                    <img src="assets/image/NoPath - Copy (16).png" alt="" class=" card-img-top">
+
+                                </div>
+                                <div class="card-body ">
+                                    <h6 class=" color-dark-cardText text-justify">عنوان تجهیز به اندازه دو خط در این بخش قرار می گیردعنوان تجهیز به اندازه دو خط در این بخش قرار می گیرد</h6>
+                                    <hr>
+                                    <span class=" color-dark-cardText-span"><i class="far fa-file-alt "></i> خدمات</span>
+                                    <span><a href="" class=" float-left"><i class="fas fa-share-alt "></i></a></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col py-3">
+                        <a href="equipments.html">
+
+                            <div class="card">
+                                <div class=" overflow-hidden">
+                                    <img src="assets/image/NoPath - Copy (16).png" alt="" class=" card-img-top">
+
+                                </div>
+                                <div class="card-body ">
+                                    <h6 class=" color-dark-cardText text-justify">عنوان تجهیز به اندازه دو خط در این بخش قرار می گیردعنوان تجهیز به اندازه دو خط در این بخش قرار می گیرد</h6>
+                                    <hr>
+                                    <span class=" color-dark-cardText-span"><i class="far fa-file-alt "></i> خدمات</span>
+                                    <span><a href="" class=" float-left"><i class="fas fa-share-alt "></i></a></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col py-3">
+                        <a href="equipments.html">
+
+                            <div class="card">
+                                <div class=" overflow-hidden">
+                                    <img src="assets/image/NoPath - Copy (16).png" alt="" class=" card-img-top">
+
+                                </div>
+                                <div class="card-body ">
+                                    <h6 class=" color-dark-cardText text-justify">عنوان تجهیز به اندازه دو خط در این بخش قرار می گیردعنوان تجهیز به اندازه دو خط در این بخش قرار می گیرد</h6>
+                                    <hr>
+                                    <span class=" color-dark-cardText-span"><i class="far fa-file-alt "></i> خدمات</span>
+                                    <span><a href="" class=" float-left"><i class="fas fa-share-alt "></i></a></span>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col py-3">
+                        <a href="equipments.html">
+
+                            <div class="card">
+                                <div class=" overflow-hidden">
+                                    <img src="assets/image/NoPath - Copy (16).png" alt="" class=" card-img-top">
+
+                                </div>
+                                <div class="card-body ">
+                                    <h6 class=" color-dark-cardText text-justify">عنوان تجهیز به اندازه دو خط در این بخش قرار می گیردعنوان تجهیز به اندازه دو خط در این بخش قرار می گیرد</h6>
+                                    <hr>
+                                    <span class=" color-dark-cardText-span"><i class="far fa-file-alt "></i> خدمات</span>
+                                    <span><a href="" class=" float-left"><i class="fas fa-share-alt "></i></a></span>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col py-3">
+                        <a href="equipments.html">
+
+                            <div class="card">
+                                <div class=" overflow-hidden">
+                                    <img src="assets/image/NoPath - Copy (16).png" alt="" class=" card-img-top">
+
+                                </div>
+                                <div class="card-body ">
+                                    <h6 class=" color-dark-cardText text-justify">عنوان تجهیز به اندازه دو خط در این بخش قرار می گیردعنوان تجهیز به اندازه دو خط در این بخش قرار می گیرد</h6>
+                                    <hr>
+                                    <span class=" color-dark-cardText-span"><i class="far fa-file-alt "></i> خدمات</span>
+                                    <span><a href="" class=" float-left"><i class="fas fa-share-alt "></i></a></span>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col py-3">
+                        <a href="equipments.html">
+
+                            <div class="card">
+                                <div class=" overflow-hidden">
+                                    <img src="assets/image/NoPath - Copy (16).png" alt="" class=" card-img-top">
+
+                                </div>
+                                <div class="card-body ">
+                                    <h6 class=" color-dark-cardText text-justify">عنوان تجهیز به اندازه دو خط در این بخش قرار می گیردعنوان تجهیز به اندازه دو خط در این بخش قرار می گیرد</h6>
+                                    <hr>
+                                    <span class=" color-dark-cardText-span"><i class="far fa-file-alt "></i> خدمات</span>
+                                    <span><a href="" class=" float-left"><i class="fas fa-share-alt "></i></a></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row justify-content-center parallax d-flex align-items-center">
+                <h4 class=" text-white m-auto p-3">همراهی با دانش روز و استفاده از بهترین و مدرنترین دستگاه ها و راهکار ها شعار ماست </h4>
+            </div>
+            <div class="row  d-flex align-items-center flex-column pt-6">
+                <h3 class=" text-primary">آزمایشگاه های منتخب </h3>
+                <p class="color-pink">بیش از 26 آزمایشگاه با بهترین خدمات و تجهیزات </p>
+            </div>
+            <div class="container" id="services">
+                <div class="row">
+                    <div class="col-12 col-sm-6 d-flex flex-column align-items-center hvr-sweep-to-left">
+                        <div class="card border-0 ">
+                            <p class=" text-justify p-2 color-dark-cardText">جداسازی اجزای یک مخلوط غیر اسید آمینه با آشکارساز فلورسانت با کروماتوگرافی مایع با کارایی بالا</p>
+                            <span class=" text-justify p-2 color-dark-cardText-span">نام دستگاه هایی که این خدمات را ارئه میدهند</span>
+                            <span class=" text-justify p-2 color-dark-cardText-span d-block">نام دستگاه هایی که این خدمات را ارئه میدهند</span>
+                        </div>
+                        <div class=" d-flex align-items-center text-center flex-column position-absolute span-pos span-del">
+                            <span class=" d-block p-1">195000تومان</span>
+                            <button class="btn btn-primary "><a href="equ2.html" class="text-white">ثبت سفارش</a></button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 d-flex flex-column align-items-center hvr-sweep-to-left">
+                        <div class="card border-0 ">
+                            <p class=" text-justify p-2 color-dark-cardText">جداسازی اجزای یک مخلوط غیر اسید آمینه با آشکارساز فلورسانت با کروماتوگرافی مایع با کارایی بالا</p>
+                            <span class=" text-justify p-2 color-dark-cardText-span">نام دستگاه هایی که این خدمات را ارئه میدهند</span>
+                            <span class=" text-justify p-2 color-dark-cardText-span d-block">نام دستگاه هایی که این خدمات را ارئه میدهند</span>
+                        </div>
+                        <div class=" d-flex align-items-center flex-column text-center position-absolute span-pos span-del">
+                            <span class=" d-block p-1">195000تومان</span>
+                            <button class="btn btn-primary "><a href="equ2.html" class="text-white">ثبت سفارش</a></button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row py-3">
+                    <div class="col-12 col-sm-6 d-flex flex-column align-items-center hvr-sweep-to-left">
+                        <div class="card border-0 ">
+                            <p class=" text-justify p-2 color-dark-cardText">جداسازی اجزای یک مخلوط غیر اسید آمینه با آشکارساز فلورسانت با کروماتوگرافی مایع با کارایی بالا</p>
+                            <span class=" text-justify p-2 color-dark-cardText-span">نام دستگاه هایی که این خدمات را ارئه میدهند</span>
+                            <span class=" text-justify p-2 color-dark-cardText-span d-block">نام دستگاه هایی که این خدمات را ارئه میدهند</span>
+                        </div>
+                        <div class=" d-flex align-items-center flex-column text-center position-absolute span-pos span-del">
+                            <span class=" d-block p-1 ">195000تومان</span>
+                            <button class="btn btn-primary "><a href="equ2.html" class="text-white">ثبت سفارش</a></button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 d-flex flex-column align-items-center hvr-sweep-to-left">
+                        <div class="card border-0 ">
+                            <p class=" text-justify p-2 color-dark-cardText">جداسازی اجزای یک مخلوط غیر اسید آمینه با آشکارساز فلورسانت با کروماتوگرافی مایع با کارایی بالا</p>
+                            <span class=" text-justify p-2 color-dark-cardText-span">نام دستگاه هایی که این خدمات را ارئه میدهند</span>
+                            <span class=" text-justify p-2 color-dark-cardText-span d-block">نام دستگاه هایی که این خدمات را ارئه میدهند</span>
+                        </div>
+                        <div class=" d-flex align-items-center flex-column text-center position-absolute span-pos span-del">
+                            <span class=" d-block p-1">195000تومان</span>
+                            <button class="btn btn-primary "><a href="equ2.html" class="text-white">ثبت سفارش</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6 d-flex flex-column align-items-center hvr-sweep-to-left">
+                        <div class="card border-0 ">
+                            <p class=" text-justify p-2 color-dark-cardText">جداسازی اجزای یک مخلوط غیر اسید آمینه با آشکارساز فلورسانت با کروماتوگرافی مایع با کارایی بالا</p>
+                            <span class=" text-justify p-2 color-dark-cardText-span">نام دستگاه هایی که این خدمات را ارئه میدهند</span>
+                            <span class=" text-justify p-2 color-dark-cardText-span d-block">نام دستگاه هایی که این خدمات را ارئه میدهند</span>
+                        </div>
+                        <div class=" d-flex align-items-center flex-column text-center position-absolute span-pos span-del">
+                            <span class=" d-block p-1">195000تومان</span>
+                            <button class="btn btn-primary "><a href="equ2.html" class="text-white">ثبت سفارش</a></button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 d-flex flex-column align-items-center hvr-sweep-to-left">
+                        <div class="card border-0 ">
+                            <p class=" text-justify p-2 color-dark-cardText">جداسازی اجزای یک مخلوط غیر اسید آمینه با آشکارساز فلورسانت با کروماتوگرافی مایع با کارایی بالا</p>
+                            <span class=" text-justify p-2 color-dark-cardText-span">نام دستگاه هایی که این خدمات را ارئه میدهند</span>
+                            <span class=" text-justify p-2 color-dark-cardText-span d-block">نام دستگاه هایی که این خدمات را ارئه میدهند</span>
+                        </div>
+                        <div class=" d-flex align-items-center flex-column text-center position-absolute span-pos span-del">
+                            <span class=" d-block p-1">195000تومان</span>
+                            <button class="btn btn-primary "><a href="equ2.html" class="text-white">ثبت سفارش</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-4 pb-6">
+                <a href="labs.html" class="text-dark hvr-bounce-to-right"><span class=" d-flex align-items-center px-2"><i class="fas fa-arrow-right p-2 text-primary"></i>مشاهده همه</span>
+            </a>
+            </div>
+            <div class="row  d-flex align-items-center flex-column ">
+                <h3 class=" text-primary">منتخب تجهیزات </h3>
+                <p class="color-pink">بیش از 26 آزمایشگاه با بهترین خدمات و تجهیزات </p>
+            </div>
+            <div class="row">
+                <div class="swiper-container p-1 swiper-hover-img">
+
+                    <div class="swiper-wrapper" id="custom-footer">
+                        <div class="swiper-slide">
+                            <a href="lab-singel.html">
+                                <div class="card position-relative overflow-hidden border-0 center-pos">
+                                    <img src="assets/image/NoPath - Copy (13).png" alt="" class=" w-100 img-hover">
+                                    <div class="text-hover-card position-absolute text-center ">
+                                        <h4 class=" text-white">عنوان آزمایشگاه</h4>
+                                        <span class=" text-white">نام دانشکده</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <a href="lab-singel.html">
+                                <div class="card overflow-hidden border-0 center-pos">
+                                    <img src="assets/image/NoPath - Copy (11).png" alt="" class=" w-100">
+                                    <div class="text-hover-card position-absolute text-center ">
+                                        <h4 class=" text-white">عنوان آزمایشگاه</h4>
+                                        <span class=" text-white">نام دانشکده</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="lab-singel.html">
+                                <div class="card overflow-hidden border-0 center-pos">
+                                    <img src="assets/image/NoPath - Copy (10).png" alt="" class=" w-100">
+                                    <div class="text-hover-card position-absolute text-center ">
+                                        <h4 class=" text-white">عنوان آزمایشگاه</h4>
+                                        <span class=" text-white">نام دانشکده</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="lab-singel.html">
+                                <div class="card overflow-hidden border-0 center-pos">
+                                    <img src="assets/image/NoPath - Copy (6).png" alt="" class=" w-100">
+                                    <div class="text-hover-card position-absolute text-center ">
+                                        <h4 class=" text-white">عنوان آزمایشگاه</h4>
+                                        <span class=" text-white">نام دانشکده</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+            </div>
+            <div class="row justify-content-center pb-6 pt-4">
+                <a href="labs.html" class="text-dark hvr-bounce-to-right"><span class=" d-flex align-items-center px-2"><i class="fas fa-arrow-right p-2"></i>مشاهده همه</span>
+                
+            </a>
+            </div>
+
+
+
+            <div class="row  d-flex align-items-center flex-column ">
+                <h3 class=" text-primary"> اخبار و اطلاعیه ها </h3>
+                <p class="color-pink px-2">از بروزترین اخبار و اطلاعیه های دستگاه ها و تجهیزات جدید مطلع شوید</p>
+            </div>
+
+            <div class="container">
+                <div class="row py-4 justify-content-center">
+                    <div class="card-deck w-100">
+                        <div class="col-12 col-sm-12 col-md-8 w-100">
+                            <div class="card border-0 w-100 mr-0">
+                                <img src="assets/image/NoPath - Copy (25).png" alt="" class="w-100 filter">
+                                <div class=" position-absolute p-3 w-100 bottom">
+                                    <p class=" text-white">توسط محققین پردیس علوم رفتاری دانشگاه بیرجند تأثیر هشت هفته تمرین مقاومتی دایره‌ای </p>
+                                    <hr>
+                                    <div class="">
+                                        <span class=" text-white">18شهریور 98</span>
+                                        <span><a href="" class=" float-left"><img src="assets/image/000.png" alt="" ></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <a href="">
+                            <div class="card">
+                                <img src="assets/image/NoPath - Copy (18).png" alt="" class=" card-img-top">
+                                <div class="card-body">
+                                    <h6 class=" color-dark-cardText text-justify">عنوان تجهیز به اندازه دو خط در این بخش قرار می گیردعنوان تجهیز به اندازه دو خط در این بخش قرار می گیرد</h6>
+                                    <hr class=" text-white">
+                                    <span class="color-dark-cardText-span">18شهریور 98</span>
+                                    <a href="" class=" float-left"><i class="fas fa-share-alt "></i></a>
+                                </div>
+
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="row row-cols-2 row-cols-md-3">
+                    <div class="col py-3">
+                        <a href="">
+
+                            <div class="card">
+                                <img src="assets/image/NoPath - Copy (16).png" alt="" class=" card-img-top">
+                                <div class="card-body ">
+                                    <h6 class=" color-dark-cardText text-justify">عنوان تجهیز به اندازه دو خط در این بخش قرار می گیردعنوان تجهیز به اندازه دو خط در این بخش قرار می گیرد</h6>
+                                    <hr>
+                                    <span class=" color-dark-cardText-span"><i class="far fa-file-alt "></i> خدمات</span>
+                                    <span><a href="" class=" float-left"><i class="fas fa-share-alt "></i></a></span>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col py-3">
+                        <a href="">
+
+                            <div class="card">
+                                <img src="assets/image/NoPath - Copy (16).png" alt="" class=" card-img-top">
+                                <div class="card-body">
+                                    <h6 class=" color-dark-cardText text-justify">عنوان تجهیز به اندازه دو خط در این بخش قرار می گیردعنوان تجهیز به اندازه دو خط در این بخش قرار می گیرد</h6>
+                                    <hr>
+                                    <span class=" color-dark-cardText-span"><i class="far fa-file-alt"></i> خدمات</span>
+                                    <span><a href="" class=" float-left"><i class="fas fa-share-alt "></i></a></span>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col py-3">
+                        <a href="">
+
+                            <div class="card">
+                                <img src="assets/image/NoPath - Copy (16).png" alt="" class=" card-img-top">
+                                <div class="card-body">
+                                    <h6 class=" color-dark-cardText text-justify">عنوان تجهیز به اندازه دو خط در این بخش قرار می گیردعنوان تجهیز به اندازه دو خط در این بخش قرار می گیرد</h6>
+                                    <hr>
+                                    <span class=" color-dark-cardText-span"><i class="far fa-file-alt"></i> خدمات</span>
+                                    <span><a href="" class=" float-left"><i class="fas fa-share-alt "></i></a></span>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="row justify-content-center pb-6 pt-4">
+                <a href="news.html" class="text-dark hvr-bounce-to-right"><span class=" d-flex align-items-center px-2"><i class="fas fa-arrow-right p-2"></i>مشاهده همه</span>
+                
+            </a>
+            </div>
+            <div class="container ">
+                <div class="row justify-content-center d-flex align-items-center pb-6 row-cols-1 row-cols-sm-2 row-cols-md-4 ">
+
+                    <a href="">
+                        <div class="col  d-flex  px-5">
+                            <img src="assets/image/chemistry.png" alt="">
+                            <div class="px-3">
+                                <p class="h5">‏16 آزمایشگاه</p>
+                                <span><small class=" text-dark">آزمایشگاه ها</small> </span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="col  d-flex  px-5 py-3">
+                            <img src="assets/image/00000.png" alt="">
+                            <div class="px-3">
+                                <p class="h5">‏16 آزمایشگاه</p>
+                                <span><small class=" text-dark">آزمایشگاه ها</small> </span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="col d-flex px-5 mt-4 mt-md-0">
+                            <img src="assets/image/plan.png" alt="">
+                            <div class="px-3">
+                                <p class="h5">‏16 آزمایشگاه</p>
+                                <span><small class=" text-dark">آزمایشگاه ها</small> </span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="col  d-flex  px-5 mt-4 mt-md-0">
+                            <img src="assets/image/plan.png" alt="">
+                            <div class="px-3">
+                                <p class="h5">‏16 آزمایشگاه</p>
+                                <span><small class=" text-dark">آزمایشگاه ها</small> </span>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="page-footer font-small indigo back-footer mt-4">
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-right ">
+                <div class="row row-cols-1 row-cols-sm-2 pt-2 justify-content-center">
+                    <div class="col">
+                        <img src="assets/image/logo.png" alt="" class=" wm-100">
+                    </div>
+                    <div class="col">
+                        <ul class=" list-inline mt-3 mb-3 float-md-left" id="net-so">
+                            <li class=" list-inline-item  p-1 "><a href="#"><i class="fab fa-twitter-square "></i></a> </li>
+                            <li class=" list-inline-item  p-1  pr-0"><a href="#"><i class="fab fa-facebook-square "></i></a></li>
+                            <li class=" list-inline-item  p-1 "><a href="#"><i class="fab fa-google-plus-square "></i></a></li>
+                            <li class=" list-inline-item  p-1 "><a href="#"><i class="fab fa-telegram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <!-- Grid row -->
+                <div class="row justify-content-center">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto pt-4">
+
+                        <!-- Links -->
+
+                        <h5 class="H6  mt-3 mb-4 text-white"><img src="assets/image/icon-green.png" alt="" class="green"> لینک های اصلی</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="index.html" class=" text-white"><img src="assets/image/Polygon 3.png" alt="" class="icon-footer-rotate px-1">دانشکده ها</a>
+                            </li>
+                            <li>
+                                <a href="news.html" class=" text-white"><img src="assets/image/Polygon 3.png" alt="" class="icon-footer-rotate px-1">آزمایشگاه ها</a>
+                            </li>
+                            <li>
+                                <a href="#notifications" class=" text-white"><img src="assets/image/Polygon 3.png" alt="" class="icon-footer-rotate px-1"> تجهیزات</a>
+                            </li>
+                            <li>
+                                <a href="#article" class=" text-white"><img src="assets/image/Polygon 3.png" alt="" class="icon-footer-rotate px-1">خدمات</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-6 pt-4">
+
+                        <!-- Links -->
+                        <h5 class="H6  mt-3 mb-4 text-white"><img src="assets/image/icon-green.png" alt="" class="green"> لینک های مفید</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="register.html" class="text-white"><img src="assets/image/Polygon 3.png" alt="" class="icon-footer-rotate px-1">ورود|ثبت نام </a>
+                            </li>
+                            <li>
+                                <a href="qouiztion.html" class="text-white"><img src="assets/image/Polygon 3.png" alt="" class="icon-footer-rotate px-1">سوالات متداول</a>
+                            </li>
+                            <li>
+                                <a href="gllry.html" class="text-white"><img src="assets/image/Polygon 3.png" alt="" class="icon-footer-rotate px-1"> گالری تصاویر</a>
+                            </li>
+                            <li>
+                                <a href="aboutus.html" class="text-white"><img src="assets/image/Polygon 3.png" alt="" class="icon-footer-rotate px-1">درباره ما</a>
+                            </li>
+                            <li>
+                                <a href="ertebatbama.html" class="text-white"><img src="assets/image/Polygon 3.png" alt="" class="icon-footer-rotate px-1">تماس با ما</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+
+
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-6 mx-auto pt-4 d-none d-sm-inline">
+
+                        <!-- Links -->
+                        <h5 class="H6  mt-3 mb-4 text-white"><img src="assets/image/icon-green.png" class=" pl-1 green" alt=""> اخرین خدمات ارائه شده</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="register.html" class="text-white"><img src="assets/image/Polygon 3.png" alt="" class="icon-footer-rotate px-1">عنوان خدمت </a>
+                            </li>
+                            <li>
+                                <a href="qouiztion.html" class="text-white"><img src="assets/image/Polygon 3.png" alt="" class="icon-footer-rotate px-1">عنوان خدمت </a>
+                            </li>
+                            <li>
+                                <a href="gllry.html" class="text-white"><img src="assets/image/Polygon 3.png" alt="" class="icon-footer-rotate px-1">عنوان خدمت</a>
+                            </li>
+                            <li>
+                                <a href="aboutus.html" class="text-white"><img src="assets/image/Polygon 3.png" alt="" class="icon-footer-rotate px-1">عنوان خدمت</a>
+                            </li>
+                            <li>
+                                <a href="ertebatbama.html" class="text-white"><img src="assets/image/Polygon 3.png" alt="" class="icon-footer-rotate px-1">عنوان خدمت</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-6 mx-auto pt-4 d-none d-lg-inline">
+
+                        <!-- Links -->
+                        <h5 class="H6  mt-3 mb-4 text-white "><img src="assets/image/icon-green.png " class=" pl-1 green" alt="">اطلاعات تماس</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="ertebatbama.html" class=" text-white"><i class="fas fa-phone-volume color-icon pl-1"></i> تلفن:056-35473576 </a>
+                            </li>
+                            <li>
+                                <a href="ertebatbama.html" class=" text-white"><i class="far fa-envelope color-icon pl-1"></i> ایمیل:azadbakht@gmail.com</a>
+                            </li>
+                            <li>
+                                <a href="ertebatbama.html" class=" text-white"><i class="fas fa-map-signs color-icon pl-1"></i>  آدرس : خراسان جنوبی ـ بیرجند ـ انتهای بلوار دانشگاه  پردیس شوکت آباد ـ سازمان مرکزی دانشگاه بیرجند</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-right py-3">
+                <div class=" container">
+                    <a href="https://www.daneshjooyar.com" class=" text-white disabled">کلیه حقوق سایت متعلق مربوط به کانون سردفتران و دفتریاران می باشد | طراحی شده توسط دانشجویار </a>
+
+                </div>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </div>
+</body>
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<script src="assets/js/custom.js"></script>
+
+<script src="assets/swiper.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 3,
+        spaceBetween: 5,
+        loop: true,
+
+        breakpoints: {
+            // when window width is >= 320px
+
+            320: {
+                slidesPerView: 2,
+                spaceBetween: 0
+            },
+            // when window width is >= 480px
+            480: {
+                slidesPerView: 2,
+                spaceBetween: 0
+            },
+            // when window width is >= 640px
+            640: {
+                slidesPerView: 4,
+                spaceBetween: 0
+            },
+            997: {
+                slidesPerView: 4,
+                spaceBetween: 0
+            }
+
+        }
+    });
+</script>
+
+</html>
